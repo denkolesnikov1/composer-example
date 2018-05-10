@@ -1,0 +1,21 @@
+{
+    "name": "denkolesnikov1/composer-example",
+    "description": "My example project",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Den Kolesnikov",
+            "email": "denkolesnikov001@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "denkolesnikov1\\parser\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
